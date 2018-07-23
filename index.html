@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <input
+        type="text"
+        name="search"
+        id = "search"
+        placeholder = "Search"
+        data-list = ".photo-wrapper"
+        >
+      <div class="photo-wrapper">
+        <a class = 'photo' href="photos/01.jpg" data-lightbox='lightbox' data-title='Hay Bales - I love hay bales. Took this snap on a drive through the countryside past some straw fields.'><img class = "thumbnail" src = 'thumbnails/01.jpg' alt = 'Hay Bales'></a>
+        <a class = 'photo' href="photos/02.jpg" data-lightbox='lightbox' data-title='Lake - The lake was so calm today. We had a great view of the snow on the mountains from here.'><img class = "thumbnail" src = 'thumbnails/02.jpg' alt = 'Lake'></a>
+        <a class = 'photo' href="photos/03.jpg" data-lightbox='lightbox' data-title='Canyon - I hiked to the top of the mountain and got this picture of the canyon and trees below.'><img class = "thumbnail" src = 'thumbnails/03.jpg' alt = 'Canyon'></a>
+        <a class = 'photo' href="photos/04.jpg" data-lightbox='lightbox' data-title='Iceberg - It was amazing to see an iceberg up close, it was so cold but didn’t snow today. '><img class = "thumbnail" src = 'thumbnails/04.jpg' alt = 'Iceberg'></a>
+        <a class = 'photo' href="photos/05.jpg" data-lightbox='lightbox' data-title='Desert - The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.'><img class = "thumbnail" src = 'thumbnails/05.jpg' alt = 'Desert'></a>
+        <a class = 'photo' href="photos/06.jpg" data-lightbox='lightbox' data-title='Fall - Fall is coming, I love when the leaves on the trees start to change color.'><img class = "thumbnail" src = 'thumbnails/06.jpg' alt = 'Fall'></a>
+        <a class = 'photo' href="photos/07.jpg" data-lightbox='lightbox' data-title='Plantation - I drove past this plantation yesterday, everything is so green!'><img class = "thumbnail" src = 'thumbnails/07.jpg' alt = 'Plantation'></a>
+        <a class = 'photo' href="photos/08.jpg" data-lightbox='lightbox' data-title='Dunes - My summer vacation to the Oregon Coast. I love the sandy dunes!'><img class = "thumbnail" src = 'thumbnails/08.jpg' alt = 'Dunes'></a>
+        <a class = 'photo' href="photos/09.jpg" data-lightbox='lightbox' data-title='Countryside Lane - We enjoyed a quiet stroll down this countryside lane. '><img class = "thumbnail" src = 'thumbnails/09.jpg' alt = 'Countryside Lane'></a>
+        <a class = 'photo' href="photos/10.jpg" data-lightbox='lightbox' data-title='Sunset - Sunset at the coast! The sky turned a lovely shade of orange.'><img class = "thumbnail" src = 'thumbnails/10.jpg' alt = 'Sunset'></a>
+        <a class = 'photo' href="photos/11.jpg" data-lightbox='lightbox' data-title='Cave - I did a tour of a cave today and the view of the landscape below was breathtaking.'><img class = "thumbnail" src = 'thumbnails/11.jpg' alt = 'Cave'></a>
+        <a class = 'photo' href="photos/12.jpg" data-lightbox='lightbox' data-title='Bluebells - I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.'><img class = "thumbnail" src = 'thumbnails/12.jpg' alt = 'Bluebells'></a>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src = 'https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js'></script>
+    <script src = 'https://rawgit.com/vdw/HideSeek/master/jquery.hideseek.min.js'></script>
+    <script src = 'js/scripts.js'></script>
+  </body>
+</html>
